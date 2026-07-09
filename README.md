@@ -8,21 +8,10 @@ A scalable, highly available web application built on AWS for collecting feedbac
 
 This project demonstrates a **hybrid cloud architecture** by integrating traditional infrastructure with serverless AWS services.
 
-### Traditional Infrastructure
-- Amazon EC2 Instances
-- Auto Scaling Groups
-- Application Load Balancer (ALB)
-
-### Serverless Components
-- AWS Lambda
-- Amazon API Gateway
-- Amazon DynamoDB
-
-### Storage
-- Amazon S3 for storing uploaded event images
-
-### DevOps Pipeline
-- Automated CI/CD using AWS CodeCommit, CodeDeploy, and CodePipeline
+- **Traditional Infrastructure:** Amazon EC2 Instances, Auto Scaling Groups, Application Load Balancer (ALB)
+- **Serverless Components:** AWS Lambda, Amazon API Gateway, Amazon DynamoDB
+- **Storage:** Amazon S3 for storing uploaded event images
+- **DevOps Pipeline:** Automated CI/CD using AWS CodeCommit, CodeDeploy, and CodePipeline
 
 ---
 
