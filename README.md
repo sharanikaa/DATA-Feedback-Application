@@ -1,6 +1,6 @@
-# DATA Feedback Application using AWS Hybrid Architecture, High Availability and CI/CD Pipeline
+# DATA Feedback Application: End-to-End CI/CD Pipeline on AWS
 
-A scalable, highly available web application built on AWS for collecting feedback from members and participants of the **DATA (Data Science and Artificial Intelligence Technical Association)**. The application combines traditional server-based infrastructure with modern serverless services to provide a secure, reliable, and highly available feedback management system with optional image uploads and automated deployment using a complete CI/CD pipeline.
+A scalable, highly available feedback management application built on AWS for the **DATA (Data Science and Artificial Intelligence Technical Association)**. It implements a **Hybrid AWS Architecture** using EC2, AWS Lambda, API Gateway, DynamoDB, and S3, with **High Availability** through Auto Scaling and an Application Load Balancer, along with an **end-to-end CI/CD pipeline** for automated deployments.
 
 ## 🏗️ Architecture Overview
 
