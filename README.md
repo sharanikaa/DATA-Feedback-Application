@@ -41,34 +41,35 @@ This project demonstrates a **hybrid cloud architecture** by integrating traditi
 
 ## 🏛️ Architecture Diagram
 
-![Architecture](images/Architecture.png)
+![Architecture](/Architecture.png)
 
-**Frontend:** Static web application hosted on EC2 instances
-**Load Balancing:** Application Load Balancer for high availability
-**Backend API:** Serverless API using API Gateway and Lambda
-**Data Layer:** DynamoDB for structured data, S3 for image storage
+- **Frontend:** Static web application hosted on EC2 instances
+- **Load Balancing:** Application Load Balancer for high availability
+- **Backend API:** Serverless API using API Gateway and Lambda
+- **Data Layer:** DynamoDB for structured data, S3 for image storage
+
 ---
 
 ## 🛠️ Technology Stack
 
 ### AWS Services
 
-**Compute:** Amazon EC2, AWS Lambda, Auto Scaling Groups
-**Networking:** Amazon VPC, Application Load Balancer, NAT Gateway, Internet Gateway
-**Storage:** Amazon S3, Amazon DynamoDB
-**API:** Amazon API Gateway
-**DevOps:** AWS CodeCommit, AWS CodeDeploy, AWS CodePipeline, AWS CloudShell
-**Monitoring:** Amazon CloudWatch, Amazon SNS
-**Security:** IAM Roles, Security Groups
+- **Compute:** Amazon EC2, AWS Lambda, Auto Scaling Groups
+- **Networking:** Amazon VPC, Application Load Balancer, NAT Gateway, Internet Gateway
+- **Storage:** Amazon S3, Amazon DynamoDB
+- **API:** Amazon API Gateway
+- **DevOps:** AWS CodeCommit, AWS CodeDeploy, AWS CodePipeline, AWS CloudShell
+- **Monitoring:** Amazon CloudWatch, Amazon SNS
+- **Security:** IAM Roles, Security Groups
 
 ---
 
 ### Development Stack
 
-**Frontend:** HTML5, CSS3, JavaScript
-**Backend:** Python 3.9 (AWS Lambda)
-**Version Control:** Git, GitHub
-**Deployment:** AWS CodePipeline, AWS CodeDeploy
+- **Frontend:** HTML5, CSS3, JavaScript
+- **Backend:** Python 3.9 (AWS Lambda)
+- **Version Control:** Git, GitHub
+- **Deployment:** AWS CodePipeline, AWS CodeDeploy
 
 ---
 
@@ -92,19 +93,19 @@ This project demonstrates a **hybrid cloud architecture** by integrating traditi
 
 ## 🔒 Security Considerations
 
-**Network Security:** Custom VPC with isolated private subnets
-**Access Control:** IAM roles with least privilege principles
-**Data Security:** Encrypted data transmission, secure S3 bucket policies
-**API Security:** API Gateway with proper CORS configuration
+- **Network Security:** Custom VPC with isolated private subnets
+- **Access Control:** IAM roles with least privilege principles
+- **Data Security:** Encrypted data transmission, secure S3 bucket policies
+- **API Security:** API Gateway with proper CORS configuration
 
 ---
 
 ## 💰 Cost Optimization
 
-**Compute:** t2.micro instances for cost-effective hosting
-**Serverless:** Pay-per-request Lambda pricing
-**Storage:** S3 Standard for frequently accessed images
-**Auto Scaling:** Automatic capacity adjustment to optimize costs
+- **Compute:** t2.micro instances for cost-effective hosting
+- **Serverless:** Pay-per-request Lambda pricing
+- **Storage:** S3 Standard for frequently accessed images
+- **Auto Scaling:** Automatic capacity adjustment to optimize costs
 
 ---
 
@@ -115,13 +116,3 @@ This project demonstrates a **hybrid cloud architecture** by integrating traditi
 - CI/CD pipelines simplify deployment and reduce manual effort.
 - Proper IAM policies and network segmentation significantly improve application security.
 - AWS managed services reduce operational overhead while improving scalability and reliability.
-
----
-
-## 👨‍💻 Author
-
-**Sharanika**
-
-**Project:** DATA Feedback Application
-
-**Organization:** DATA – Data Science and Artificial Intelligence Technical Association
