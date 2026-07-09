@@ -22,8 +22,6 @@ This project demonstrates a **hybrid cloud architecture** by integrating traditi
 ### DevOps Pipeline
 - Automated CI/CD using AWS CodeCommit, CodeDeploy, and CodePipeline
 
----
-
 ## 🏛️ Architecture Diagram
 
 ![Architecture](/architecture.png)
@@ -32,8 +30,6 @@ This project demonstrates a **hybrid cloud architecture** by integrating traditi
 - **Load Balancing:** Application Load Balancer for high availability
 - **Backend API:** Serverless API using API Gateway and Lambda
 - **Data Layer:** DynamoDB for structured data, S3 for image storage
-
----
 
 ## 🚀 Features
 
@@ -45,8 +41,6 @@ This project demonstrates a **hybrid cloud architecture** by integrating traditi
 - **Automated Deployment:** End-to-end CI/CD pipeline.
 - **Network Security:** Custom VPC with public/private subnets.
 - **Health Monitoring:** CloudWatch metrics and SNS notifications.
-
----
 
 ## 🛠️ Technology Stack
 
@@ -67,16 +61,12 @@ This project demonstrates a **hybrid cloud architecture** by integrating traditi
 - **Version Control:** Git, GitHub
 - **Deployment:** AWS CodePipeline, AWS CodeDeploy
 
----
-
 ## 📋 Prerequisites
 
 - AWS Account with appropriate permissions
 - Basic knowledge of AWS Cloud Services
 - Understanding of VPC, EC2, IAM, and Networking
 - Familiarity with Git version control
-
----
 
 ## 📈 Monitoring & Alerts
 
@@ -85,8 +75,6 @@ This project demonstrates a **hybrid cloud architecture** by integrating traditi
 - **Health Checks:** Application Load Balancer health monitoring
 - **Logging:** Lambda function logs, EC2 system logs
 
----
-
 ## 🔒 Security Considerations
 
 - **Network Security:** Custom VPC with isolated private subnets
@@ -94,16 +82,12 @@ This project demonstrates a **hybrid cloud architecture** by integrating traditi
 - **Data Security:** Encrypted data transmission, secure S3 bucket policies
 - **API Security:** API Gateway with proper CORS configuration
 
----
-
 ## 💰 Cost Optimization
 
 - **Compute:** t2.micro instances for cost-effective hosting
 - **Serverless:** Pay-per-request Lambda pricing
 - **Storage:** S3 Standard for frequently accessed images
 - **Auto Scaling:** Automatic capacity adjustment to optimize costs
-
----
 
 ## 📝 Lessons Learned
 
