@@ -8,10 +8,32 @@ A scalable, highly available web application built on AWS for collecting feedbac
 
 This project demonstrates a **hybrid cloud architecture** by integrating traditional infrastructure with serverless AWS services.
 
-- **Traditional Infrastructure:** Amazon EC2 Instances, Auto Scaling Groups, Application Load Balancer (ALB)
-- **Serverless Components:** AWS Lambda, Amazon API Gateway, Amazon DynamoDB
-- **Storage:** Amazon S3 for storing uploaded event images
-- **DevOps Pipeline:** Automated CI/CD using AWS CodeCommit, CodeDeploy, and CodePipeline
+### Traditional Infrastructure
+- Amazon EC2 Instances
+- Auto Scaling Groups
+- Application Load Balancer (ALB)
+
+### Serverless Components
+- AWS Lambda
+- Amazon API Gateway
+- Amazon DynamoDB
+
+### Storage
+- Amazon S3 for storing uploaded event images
+
+### DevOps Pipeline
+- Automated CI/CD using AWS CodeCommit, CodeDeploy, and CodePipeline
+
+---
+
+## 🏛️ Architecture Diagram
+
+![Architecture](/Architecture.png)
+
+- **Frontend:** Static web application hosted on EC2 instances
+- **Load Balancing:** Application Load Balancer for high availability
+- **Backend API:** Serverless API using API Gateway and Lambda
+- **Data Layer:** DynamoDB for structured data, S3 for image storage
 
 ---
 
@@ -25,17 +47,6 @@ This project demonstrates a **hybrid cloud architecture** by integrating traditi
 - **Automated Deployment:** End-to-end CI/CD pipeline.
 - **Network Security:** Custom VPC with public/private subnets.
 - **Health Monitoring:** CloudWatch metrics and SNS notifications.
-
----
-
-## 🏛️ Architecture Diagram
-
-![Architecture](/Architecture.png)
-
-- **Frontend:** Static web application hosted on EC2 instances
-- **Load Balancing:** Application Load Balancer for high availability
-- **Backend API:** Serverless API using API Gateway and Lambda
-- **Data Layer:** DynamoDB for structured data, S3 for image storage
 
 ---
 
