@@ -28,7 +28,7 @@ This project demonstrates a **hybrid cloud architecture** by integrating traditi
 
 ## 🏛️ Architecture Diagram
 
-![Architecture](/Architecture.png)
+![Architecture](/architecture.png)
 
 - **Frontend:** Static web application hosted on EC2 instances
 - **Load Balancing:** Application Load Balancer for high availability
